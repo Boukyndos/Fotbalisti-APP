@@ -67,6 +67,9 @@ body {
 }
 
 .py-input{
+    text-align: center;
+    font-size: 38px;
+    color: #898787;
     border-radius: 155px;
     display:block;
     width: 80%;
@@ -82,9 +85,10 @@ body {
 }
 
 .inputs{
+    display: inline-block ;
     width:60%;
     margin-top: 200px;
-    margin-left: 150px;
+    margin-left: 110px;
 }
 
 #pos{
@@ -97,4 +101,80 @@ body {
     text-align: center;
     font-size: 38px;
     color: #898787;
+}
+
+.btns{
+
+    position: absolute;
+    top: 50vh;
+    width: 18%;
+    display: inline-block ;
+}
+
+.btn1{
+    cursor: pointer;
+    border: none;
+    margin: 50px 0 50px 80px;
+    max-width: fit-content;
+    display: block;
+    padding: 10px 25px;
+    font-size: 20px;
+    color:rgb(107, 107, 220);
+    background-color: #cec819;
+    border-radius: 155px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.btn2{
+    cursor: pointer;
+    border: none;
+    margin: 50px 0 50px 40px;
+    max-width: fit-content;
+    display: block;
+    padding: 10px 25px;
+    font-size: 20px;
+    color:rgb(107, 107, 220);
+    background-color: #cec819;
+    border-radius: 155px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.btn3{
+    cursor: pointer;
+    border: none;
+    margin: 50px 0 50px 90px;
+    max-width: fit-content;
+    display: block;
+    padding: 10px 25px;
+    font-size: 20px;
+    color:rgb(107, 107, 220);
+    background-color: #cec819;
+    border-radius: 155px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.btn1:hover{
+    color:#cec819;
+    background-color: rgb(107, 107, 220);
+}
+
+.btn2:hover{
+    color:#cec819;
+    background-color: rgb(107, 107, 220);
+}
+
+.btn3:hover{
+    color:#cec819;
+    background-color: rgb(107, 107, 220);
+}
+
+.output{
+    width:50px;
+    height: 20px;
 }

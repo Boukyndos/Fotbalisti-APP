@@ -28,12 +28,14 @@
     </div>
 
     <div class="hero">
-        <form action="" class="form">
+        <div id="output">
+        </div>
+        <form onsubmit="return false" class="form">
             <div class="inputs">
-                <input type="text" class="py-input" placeholder="jméno fotbalisty">
-                <input type="text" class="py-input" placeholder="příjmení fotbalisty">
-                <input type="text" class="py-input" placeholder="číslo dresu">
-                <input type="text" class="py-input" placeholder="nastřílených gólů">
+                <input type="text" class="py-input" id="jm" placeholder="jméno fotbalisty">
+                <input type="text" class="py-input" id="pr" placeholder="příjmení fotbalisty">
+                <input type="text" class="py-input" id="cd" placeholder="číslo dresu">
+                <input type="text" class="py-input" id="ng" placeholder="nastřílených gólů">
 
                 <select name="positions" id="pos">
                     <option value="GK">▼Pozice fotbalisty▼</option>
@@ -47,13 +49,15 @@
                     <option value="ST">Útočník</option>
                 </select>
             </div>
+            <div class="btns">
+                <button class="btn1" py-click="sub()">ODESLAT</button>
+                <button class="btn2">ZOBRAZIT TÝM</button>
+                <button class="btn3">RESET</button>
+            </div>
         </form>
     </div>
-
-
 </body>
 
-
-<py-script> 
+<py-script src="python.py">
 </py-script>
 </html>
