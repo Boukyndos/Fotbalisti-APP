@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("images/Androctonus_amoreuxi\,_Israel_2\ \(1\).jpg");
+}
+
+.navigace{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+}
+
+.balon{
+    width: 10%;
+}
+
+.balon1-img{
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    transition: transform .9s ease-in-out;
+    margin-top:80px;
+    margin-left: 68px;
+}
+
+.balon1-img:hover{
+    transform: rotate(200deg);
+}
+
+.balon2-img{
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    transition: transform .9s ease-in-out;
+    margin-top:80px;
+}
+
+.balon2-img:hover{
+    transform: rotate(200deg);
+}
+
+.heading{
+    width:80%;
+    height: 100%;
+    margin-top: 0;
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.main-text{
+    -webkit-text-stroke: .3px rgb(0, 0, 0);
+    text-align: center;
+    font-size: 58px;
+    margin-top: 110px;
+}
+
+.hero{
+    height: 80vh;
+    width: 85%;
+    margin: auto;
+}
+
+.form{
+    width:70%;
+    height:100%;
+}
+
+.py-input{
+    border-radius: 155px;
+    display:block;
+    width: 80%;
+    height: 2.5vh;
+    margin-top: 45px;
+    padding-top: 20px;
+}
+
+.py-input::placeholder{
+    text-align: center;
+    font-size: 38px;
+    color: #898787;
+}
+
+.inputs{
+    width:60%;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+#pos{
+    border-radius: 155px;
+    display:block;
+    width: 82.5%;
+    height: 60px;
+    margin-top: 45px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 38px;
+    color: #898787;
+}
